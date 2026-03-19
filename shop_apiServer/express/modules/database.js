@@ -2,10 +2,12 @@
 const config = require('../config/default.json')
 const { Sequelize } = require('sequelize')
 
+const HOST = process.env.HOST
+
 const mysqlConfig = config.mysql
 const sequelize = new Sequelize(mysqlConfig.database, mysqlConfig.user, mysqlConfig.password, {
   dialect: 'mysql' /* 选择 'mysql' | 'mariadb' | 'postgres' | 'mssql' 其一 */,
-  host: mysqlConfig.host, // 数据库地址
+  host: HOST ?? mysqlConfig.host, // 数据库地址
   port: mysqlConfig.port,
   connectTimeout: mysqlConfig.connectTimeout, // 链接超时
   multipleStatements: mysqlConfig.multipleStatements, // 是否允许一个query中包含多条sql语句
@@ -21,7 +23,8 @@ const sequelize = new Sequelize(mysqlConfig.database, mysqlConfig.user, mysqlCon
 const initialize = (req, res, next) => {
   try {
     sequelize.authenticate()
-    console.log('Connection has been established successfully.')
+    // console.log('Connection has been established successfully.')
+    console.log('连接数据库');
     next()
   } catch (error) {
     console.error('连接数据库失败失败 %s', err)
