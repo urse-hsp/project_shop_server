@@ -1,10 +1,22 @@
 'use strict';
+// app/router.js
+const fs = require('fs');
+const path = require('path');
 
 /**
  * @param {Egg.Application} app - egg application
  */
 module.exports = app => {
   const { router, controller } = app;
+
+  router.get('/web', async ctx => {
+    ctx.type = 'html';
+    ctx.body = fs.readFileSync(
+      path.join(__dirname, 'public/web/index.html'),
+      'utf-8',
+    );
+  });
+
 
   // 登录
   router.post('/api/private/v1/login', controller.home.login);

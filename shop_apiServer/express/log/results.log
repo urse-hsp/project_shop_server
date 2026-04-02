@@ -50,3 +50,7 @@
 2026-03-19 10:06:06 debug [www]: login => username:%s,password:%s
 2026-03-19 10:06:06 debug [www]: admin
 2026-03-19 10:06:06 debug [www]: null
+2026-04-01 23:28:16 debug [www]: login => username:%s,password:%s
+2026-04-01 23:28:16 debug [www]: admin
+2026-04-01 23:28:16 debug [www]: null
+2026-04-01 23:28:18 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
