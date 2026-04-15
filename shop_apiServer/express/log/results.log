@@ -54,3 +54,32 @@
 2026-04-01 23:28:16 debug [www]: admin
 2026-04-01 23:28:16 debug [www]: null
 2026-04-01 23:28:18 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 10:20:28 debug [www]: login => username:%s,password:%s
+2026-04-10 10:20:28 debug [www]: admin
+2026-04-10 10:20:28 debug [www]: null
+2026-04-10 10:20:49 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 10:21:54 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 10:24:12 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 10:24:31 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 10:24:33 debug [www]: login => username:%s,password:%s
+2026-04-10 10:24:33 debug [www]: admin
+2026-04-10 10:24:33 debug [www]: null
+2026-04-10 11:37:43 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 11:39:04 debug [www]: login => username:%s,password:%s
+2026-04-10 11:39:04 debug [www]: admin
+2026-04-10 11:39:04 debug [www]: null
+2026-04-10 11:54:59 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 11:55:24 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 11:55:40 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 11:55:57 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 11:56:31 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 11:57:57 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 12:01:11 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 12:01:35 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 12:02:44 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 12:03:07 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 12:03:32 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 12:04:12 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 12:08:17 error [www]: GET /.well-known/appspecific/com.chrome.devtools.json Not Found
+2026-04-10 13:14:19 error [www]: GET /public/comfiles/suilokr6us1775794527353.png Not Found
+2026-04-10 13:14:32 error [www]: GET /public/comfiles/suilokr6us1775794527353.png Not Found

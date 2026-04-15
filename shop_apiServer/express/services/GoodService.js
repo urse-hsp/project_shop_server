@@ -660,7 +660,7 @@ module.exports.getGoodById = function (id, cb) {
     // 挂载图片
     .then(doGetAllPics)
     // 挂载属性
-    // .then(doGetAllAttrs)
+    .then(doGetAllAttrs)
     .then(function (info) {
       cb(null, info.good)
     })

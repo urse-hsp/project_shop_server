@@ -13,4 +13,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+log/*
 log
+results.log
+tmp_uploads
+
+comfiles
