@@ -6,7 +6,7 @@ class goodAttributeDao extends Service {
     const ctx = this.ctx;
     const sql = `DELETE FROM sp_goods_attr WHERE goods_id = ${goods_id}`;
     try {
-      return await await ctx.model.query(sql, { type: QueryTypes.SELECT });
+      return await ctx.model.query(sql, { type: QueryTypes.SELECT });
     } catch (error) {
       return '删除出错';
     }

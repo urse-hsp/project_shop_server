@@ -152,7 +152,7 @@ class GoodService extends Service {
         const newGood = await ctx.service.dao.index.create('GoodModel', params);
         newGood.goods_cat =
           newGood.cat_one_id + ',' + newGood.cat_two_id + ',' + newGood.cat_three_id;
-        params.goods = newGood;
+        params.good = newGood;
 
         resolve(params);
       } catch (error) {
